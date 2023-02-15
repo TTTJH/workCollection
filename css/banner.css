@@ -1,0 +1,23 @@
+.banner {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 0 30px #f0f0f0;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+}
+
+.banner-text1 {
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+.banner-text2 {
+    margin-left: 20%;
+    font-size: 35px;
+    font-weight: 100;
+}
