@@ -44,4 +44,5 @@ body {
     background-repeat: no-repeat;
     background-size: 100vw;
     background-attachment: fixed;
+    overflow-x: hidden;
 }

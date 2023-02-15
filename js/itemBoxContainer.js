@@ -17,7 +17,7 @@ function ItemBoxContainer(itemBoxDataList) {
                             className: "workcollection-download-btn",
                             onClick: function(){
                                 let a = document.createElement("a");
-                                a.href = "./img/work1-1.jpg";
+                                a.href = "./img/workCollection.png";
                                 a.download = "";
                                 document.body.appendChild(a);
                                 a.click();

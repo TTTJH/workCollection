@@ -7,7 +7,8 @@
 
 .item-box {
     flex-basis: 23%;
-    height: 30vh;
+    height: 260px;
+    /* height: 30vh; */
     /* min-height: 43vh; */
     box-sizing: border-box;
     padding: 15px;
@@ -70,6 +71,7 @@
 .item-content-row{
     flex-direction: row;
     padding: 0 10px;
+    margin-top: -15px;
 }
 
 .item-content-column{
@@ -77,10 +79,11 @@
 }
 
 .item-content-title {
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 100;
     color: #69606b;
     font-family: "KaiTi";
+    flex-basis: 75%;
 }
 
 .item-content-title-column{
@@ -116,11 +119,11 @@
 }
 
 .workcollection-download-btn{
-    width: 13vw;
+    width: 11vw;
     height: 4vw;
     text-align: center;
     line-height: 4vw;
-    font-size: 30px;
+    font-size: 23px;
     font-family: "KaiTi";
     /* color: #69606b; */
     color: white;

@@ -26,7 +26,7 @@ function Footer() {
                             {
                                 className:"footer-email",
                             },
-                            "📧：1951409162@qq.com"
+                            "邮箱：1951409162@qq.com"
                         )
                     ]
                 )
