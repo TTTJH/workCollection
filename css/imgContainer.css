@@ -9,7 +9,7 @@
     text-align: center;
     top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     background-color: black;
     background-color: rgba(0, 0, 0, 0.4);
     transition-duration: 0.65s;
