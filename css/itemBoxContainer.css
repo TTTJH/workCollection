@@ -106,7 +106,13 @@
     bottom: 10px;
     color: white;
     transition-duration: 0.65s;
+    text-align: center;
+    line-height: 50px;
     /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+}
+
+.item-btn1 img{
+    width: 38%;
 }
 
 .item-btn1:hover{
@@ -119,11 +125,11 @@
 }
 
 .workcollection-download-btn{
-    width: 11vw;
-    height: 4vw;
+    width: 120px;
+    height:  60px;
     text-align: center;
-    line-height: 4vw;
-    font-size: 23px;
+    line-height: 60px;
+    font-size: 18px;
     font-family: "KaiTi";
     /* color: #69606b; */
     color: white;
@@ -140,4 +146,18 @@
 .workcollection-download-btn:hover{
     box-shadow: 0 0 30px #96deda;
     border: 1px solid #96deda;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .item-box{
+        flex-basis:auto;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+    }
+    .workcollection-download-btn{
+        width: 300px;
+        margin: 15px auto;
+    }
 }

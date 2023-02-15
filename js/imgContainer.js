@@ -34,7 +34,12 @@ function ImgContainer() {
                             return changeCurrentIndex("sub")
                         }
                     },
-                    "👈"
+                    h(
+                        "img",
+                        {
+                            src:"./img/sub.png",
+                        }
+                    )
                 ),
                 h(
                     "div",
@@ -49,7 +54,24 @@ function ImgContainer() {
                             return changeCurrentIndex("add");
                         }
                     },
-                    "👉"
+                    h(
+                        "img",
+                        {
+                            src:"./img/add.png",
+                        }
+                    )
+                ),
+                h(
+                    "div",
+                    {
+                        className: "img-container-close-btn",
+                    },
+                    h(
+                        "img",
+                        {
+                            src:"./img/close.png"
+                        }
+                    )
                 ),
             ]
         );

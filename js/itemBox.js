@@ -47,7 +47,12 @@ function ItemBox(data) {
                                                 imgContainer.show(data.imgUrlList);                                            
                                         }
                                     },
-                                    "🔍"
+                                    h(
+                                        "img",
+                                        {
+                                            src:"./img/check.png"
+                                        }
+                                    )
                                 ),
                                 // h(
                                 //     "p",

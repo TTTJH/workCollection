@@ -10,12 +10,12 @@ function Header() {
             [
 
                 h(
-                        "div",
+                        "img",
                         {
                             className: "logo header-item",
-                            // src: "./img/logo.png"
+                            src: "./img/logo.png"
                         },
-                        "🐻‍❄️"
+                        ""
                 ),
                 h(
                     "div",

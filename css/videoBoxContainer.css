@@ -31,3 +31,17 @@
     border-radius: 10px;
 }
 
+
+
+@media screen and (max-width: 1080px) {
+    .video-box {
+        flex-basis: auto;
+        width: 95%;
+        height: 240px;
+        box-sizing: border-box;
+        padding: 15px;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
