@@ -7,8 +7,8 @@
 
 .item-box {
     flex-basis: 23%;
-    height: 260px;
-    /* height: 30vh; */
+    /* height: 260px; */
+    height: 32vh;
     /* min-height: 43vh; */
     box-sizing: border-box;
     padding: 15px;

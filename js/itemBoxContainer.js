@@ -17,7 +17,7 @@ function ItemBoxContainer(itemBoxDataList) {
                             className: "workcollection-download-btn",
                             onClick: function(){
                                 let a = document.createElement("a");
-                                a.href = "./img/workCollection.png";
+                                a.href = "./files/史婉婷作品集.pdf";
                                 a.download = "";
                                 document.body.appendChild(a);
                                 a.click();
